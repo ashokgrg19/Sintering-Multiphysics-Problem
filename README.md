@@ -1,4 +1,4 @@
-# comsol-sintering-hpc-tools
+# Sintering-Multiphysics-Problem
 
 Tools for running **phase-field sintering simulations in COMSOL Multiphysics
 on a SLURM cluster**: unattended batch runs, long transient runs as
