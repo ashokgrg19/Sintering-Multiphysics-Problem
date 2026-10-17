@@ -29,6 +29,14 @@ docs/
   timescale-calibration.md   making sintering runs affordable without losing physics
 ```
 
+## Gallery
+
+[Four-grain solid-state sintering](gallery/four-grain-sintering/): phase-field
+snapshots (grains, vacancy concentration, lattice growth) and pore / neck /
+compaction histories from a long checkpointed run.
+
+![Four-grain sintering snapshots](gallery/four-grain-sintering/sintering_snapshots.png)
+
 ## Sintering metrics
 
 For grains φ₁…φₙ and gas ψ = 1 − Σφᵢ, `SinteringMetrics.add(...)` defines:
