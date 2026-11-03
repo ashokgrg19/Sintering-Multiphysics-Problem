@@ -9,6 +9,20 @@ The model physics itself (free energy, transport and mechanics equations)
 lives in separate research models; this repository is the automation and
 analysis layer around them.
 
+## The problem
+
+Sintering densifies a powder compact through coupled processes: atoms
+diffuse along surfaces, grain boundaries and the lattice, necks grow
+between particles, pores round off and close, and the particles move
+together. Phase-field models capture all of these with one set of
+equations. They are expensive, though. They need thin, resolved interfaces
+over long physical times, multiple coupled fields and, when mechanics is
+included, stiff nonlinear solves. In practice that means multi-day jobs on
+shared clusters with limited licenses, frequent restarts and preemption,
+and results that are only useful when quantities such as pore area, neck
+ratio and compaction are measured consistently. The tools here make such
+runs robust and the results comparable.
+
 ## Contents
 
 ```
